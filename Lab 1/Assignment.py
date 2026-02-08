@@ -1,3 +1,4 @@
+
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -36,5 +37,8 @@ X_train, X_test = train_test_split(X,test_size=0.25,random_state=42)
 print("\n(f) Extracted columns: Age, Sex, ChestPain, RestBP, Chol")
 print("Training Data Shape:", X_train.shape)
 print("Testing Data Shape:", X_test.shape)
+
+
+
 
 print("\n✅ Done!")
